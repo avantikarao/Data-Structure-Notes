@@ -63,3 +63,26 @@ set()
 
 Sets: A set is an unordered collection with no duplicate elements 
 - in computer memeory it creates unique memory adresses for each value in a set
+
+
+Dictionary: (associative Array)
+
+- data type that stores a collection of (key,value) pairs. such that each is unique in the collection
+- we get to have a system of indexes 
+- each value in the array has the memory adress with the index value when u delete a value in t list everything shifts over so every adress changes
+- we can delete a value from a dictionary, and it will still maintain its dataset size/length as long the key is preserved
+- must be immutable data type 
+    - strings, num, tuple
+
+- one adress cannot have two values
+- dictionary will maintain order of insertion 
+
+{} empty dictionary
+
+-----------------------------------
+item = (address, value)
+
+for adress, value in A.items():
+-----------------------------------
+
+
