@@ -85,4 +85,39 @@ item = (address, value)
 for adress, value in A.items():
 -----------------------------------
 
+Time Module:
 
+from timeit import default_timer as timer 
+
+-take time stamp and run our code and place another time stamp 
+- and it will return run time of your code by subtracting the 2 
+- reason is to determine whcih algorithum and code is better aka faster 
+
+Unit: segment of a program that handles a problems specific requirement 
+
+Refactoring: act of improving the performannce/ efficiency of the unit without affecting input and output
+  - trying to potimize procession section of code 
+
+--------------------
+Behvaior Analysis
+
+Big-o-Notation
+- mathmetically classifing each alorithum we write in com sci
+- taking about worse case senario of performance as input appraoches infinity 
+
+why we need? TEST
+1. algorithum proof 
+- prove algorithum A is better than Algorithum B by proving that Big-O is better 
+
+2. Measure performance, run time, disk usage
+- code is designed to solve problems 
+- but the solution must be deasible to time and disc space limits 
+
+3. Mathmatically formalizing algorithums 
+-Different hardware will output different runtimes; therefore, we needed a formal mathematical analysis
+
+Constant Time Algorithms: Completes the execution in the same amount of time regardless of its input.
+
+Logarithmic Time Algorithm: If N was the size of the input, the algorithm will take log(n) steps to solve a problem.
+
+Linear Time Algorithm: The completion of the algorithm is directly proportional to the size of the input.
