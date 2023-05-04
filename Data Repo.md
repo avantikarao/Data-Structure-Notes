@@ -121,3 +121,19 @@ Constant Time Algorithms: Completes the execution in the same amount of time reg
 Logarithmic Time Algorithm: If N was the size of the input, the algorithm will take log(n) steps to solve a problem.
 
 Linear Time Algorithm: The completion of the algorithm is directly proportional to the size of the input.
+
+TEST:
+20 questions problem:
+
+for the set of number from 0-100 not including decimals the program will guess the number. bc if you continuosly half the range of numbers that could be the chosen number you will reach 1 singular number before the 20 questions are finshed.Binarry search classified as logarithum problem therefore log2(n)-> log2(100)= 6.6 . therefore after 7 quetsions you would reach 1 number that is the answer and we will never reach 10 recursive call limit.
+
+how can we determine how many steps it will take a binary search to get to the set number?
+
+branches out into two possiblities for diff combinations. total = stair(steps-1) + stairs(steps-2). similar to fibonacci because answer relates to the two answers prior
+
+prime number recursion 
+
+1. divide by 2 unitl u cant
+2. divide by odd until you cant (first odd 3)
+3. divide by diff odd until you cant (next odd 5)
+
