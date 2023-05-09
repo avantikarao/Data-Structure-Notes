@@ -137,3 +137,7 @@ prime number recursion
 2. divide by odd until you cant (first odd 3)
 3. divide by diff odd until you cant (next odd 5)
 
+------------------------
+Queue: first-in first-out  #TEST how to code
+attributes: enqueue.dequeue, peek
+
